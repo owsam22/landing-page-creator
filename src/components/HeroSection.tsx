@@ -30,11 +30,11 @@ const HeroSection = () => {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row items-start gap-4 animate-fade-up" style={{ animationDelay: "0.3s" }}>
               <Button variant="hero" size="xl">
-                Start Your Subscription
+                <a href="#pricing">Start Your Subscription</a>
                 <ArrowRight className="w-5 h-5" />
               </Button>
               <Button variant="hero-outline" size="xl">
-                Gift a Box
+                <a href="#coffee">Gift a Box</a>
               </Button>
             </div>
 
@@ -67,7 +67,7 @@ const HeroSection = () => {
                 </div>
                 <div>
                   <p className="font-semibold text-foreground">12 oz bag monthly</p>
-                  <p className="text-sm text-muted-foreground">Starting at $14.99/month</p>
+                  <p className="text-sm text-muted-foreground">Starting at ₹299/month</p>
                 </div>
               </div>
             </div>

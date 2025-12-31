@@ -25,11 +25,11 @@ const CTASection = () => {
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Button variant="hero" size="xl">
-              Start Your Subscription
+              <a href="#pricing">Start Your Subscription</a>
               <ArrowRight className="w-5 h-5" />
             </Button>
             <Button variant="hero-outline" size="xl">
-              Give as Gift
+              <a href="#coffee">Give as Gift</a>
             </Button>
           </div>
           

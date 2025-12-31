@@ -4,7 +4,7 @@ import { Button } from "./ui/button";
 const plans = [
   {
     name: "Starter",
-    price: "14.99",
+    price: "299",
     description: "Perfect for casual drinkers",
     frequency: "12 oz bag / month",
     features: [
@@ -17,7 +17,7 @@ const plans = [
   },
   {
     name: "Coffee Lover",
-    price: "24.99",
+    price: "599",
     description: "Most popular choice",
     frequency: "2 bags / month",
     features: [
@@ -32,7 +32,7 @@ const plans = [
   },
   {
     name: "Enthusiast",
-    price: "39.99",
+    price: "999",
     description: "For true coffee lovers",
     frequency: "4 bags / month",
     features: [
@@ -66,7 +66,7 @@ const PricingSection = () => {
           {plans.map((plan) => (
             <div
               key={plan.name}
-              className={`relative p-8 rounded-3xl transition-all duration-300 hover:-translate-y-2 ${
+              className={`relative p-8 rounded-3xl transition-all duration-300 hover:-translate-y-2 ₹{
                 plan.popular
                   ? "bg-card border-2 border-primary shadow-warm"
                   : "bg-card border border-border hover:border-primary/30 hover:shadow-soft"
@@ -83,7 +83,7 @@ const PricingSection = () => {
               <p className="text-muted-foreground mb-4">{plan.description}</p>
               
               <div className="mb-2">
-                <span className="text-4xl font-serif font-bold text-foreground">${plan.price}</span>
+                <span className="text-4xl font-serif font-bold text-foreground">₹{plan.price}</span>
                 <span className="text-muted-foreground">/month</span>
               </div>
               <p className="text-sm text-primary font-medium mb-6">{plan.frequency}</p>

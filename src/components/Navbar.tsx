@@ -27,7 +27,7 @@ const Navbar = () => {
               Login
             </button>
             <button className="px-6 py-2.5 rounded-full bg-gradient-coffee text-primary-foreground font-semibold shadow-warm hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300">
-              Subscribe Now
+              <a href="#pricing">Subscribe Now</a>
             </button>
           </div>
 
