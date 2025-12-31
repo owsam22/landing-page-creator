@@ -50,7 +50,7 @@ const Footer = () => {
 
         <div className="flex flex-col md:flex-row items-center justify-between pt-8 border-t border-border">
           <p className="text-muted-foreground text-sm mb-4 md:mb-0">
-            © 2024 Brew Box. Crafted with ☕ for coffee lovers everywhere.
+            © 2025 Brew Box. made by sam with ☕ for coffee lovers everywhere.
           </p>
           <div className="flex items-center gap-4">
             <a href="https://instagram.com/unfoldsam" className="w-10 h-10 rounded-full bg-muted flex items-center justify-center text-muted-foreground hover:text-foreground hover:bg-primary/10 transition-all">
