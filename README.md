@@ -4,6 +4,20 @@
 # BrewBox Coffee Landing Page
 
 [Live Demo](https://brewbox-4erp.onrender.com/) — Visit the live site
+---
+
+
+## 👋 About Me
+
+Hi, I’m **Samarpan (Sam)**, a web developer passionate about creating **modern, responsive web applications**. This BrewBox landing page is part of my **web development internship project**, showcasing skills in **React, TypeScript, and Tailwind CSS**.
+
+You can find me on:
+
+* **GitHub:** [https://github.com/owsam22](https://github.com/owsam22)
+* **LinkedIn:** [https://www.linkedin.com/in/owsam22](https://www.linkedin.com/in/samarpan22)
+* **Portfolio:** [https://owsam22.github.io/portfolio](https://owsam22.github.io/portfolio)
+
+---
 
 ## 📌 Project Summary
 
